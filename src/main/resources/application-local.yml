@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: local
+
+endpoints:
+  flex-card-reader: http://localhost:8084/flex-card-reader
+  ufx-info-ms: http://localhost:8082/ufx-info-ms
+
+logging:
+  level:
+    org.springframework.web: DEBUG
+    az.iba: DEBUG
